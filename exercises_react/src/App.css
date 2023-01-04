@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(52, 117, 228);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(172, 105, 172);
+  margin: 1em;
+  padding: 10px;
+}
+
+tr th {
+  border: solid;
+  color:aqua;
+  padding: 50px;
+}
+
+tr td {
+  border: solid;
+  color:rgb(61, 65, 65);
+  padding: 25px;
+}
+
+input, button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  color: white;
+  font-size: 50px;
+}
+
+footer{
+  color: white;
+  font-size: 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(92, 86, 86);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.App-nav a {
+  padding: 0px 20px 5px 20px;
+  background-color:rgb(114, 170, 180);
+  text-decoration:none;
+  color:rgb(213, 209, 204);
+  line-height:1;
+  vertical-align:middle;
+  border-right: 2px solid rgb(240, 236, 229);
+  font-size:1.2em;
+  font-weight:bold;
+  border-radius:3px;
+}
